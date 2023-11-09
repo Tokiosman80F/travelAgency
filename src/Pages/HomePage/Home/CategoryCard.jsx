@@ -13,8 +13,8 @@ const CategoryCard = () => {
       ];
     return (
         <div className="mx-auto text-center my-20">
-        <h1 className="text-blue-500 font-semibold text-2xl">Browse By Category</h1>
-        <h1 className="text-5xl font-bold mb-20">Pick a Tour type</h1>
+        <h1 className="myh2">Browse By Category</h1>
+        <h1 className="myh1">Pick a Tour type</h1>
         <div className="flex justify-evenly item-center ">
           {categoryIcon.map((item, index) => (
             <div key={index} className="  hover:bg-slate-300 transition duration-200 p-5 rounded-xl" >

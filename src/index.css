@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.myh1{
+    @apply text-5xl font-bold mb-20
+}
+.myh2{
+    @apply text-blue-500 font-semibold text-2xl
+}
