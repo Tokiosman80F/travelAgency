@@ -26,7 +26,7 @@ const Header = () => {
       </li>
       <li>
         <Link
-          to=""
+          to="/about"
           className={` hover:text-red-400 ${({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""}
           `}
@@ -71,7 +71,7 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">{navItems}</ul>
         </div>
         <div className="navbar-end">
-        <button className="btn btn-outline">login/Signup</button>
+        <Link to="/login"><button className="btn btn-outline">login/Signup</button></Link>
     
         </div>
       </div>
